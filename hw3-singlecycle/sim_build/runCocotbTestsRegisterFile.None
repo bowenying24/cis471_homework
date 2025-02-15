@@ -1,0 +1,10 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="12345" />
+    <testcase name="readx0" classname="testbench_regfile" file="/MYSTUFF/hw3-singlecycle/testbench_regfile.py" lineno="33" time="0.007182121276855469" sim_time_ns="6.001" ratio_time="835.5470158013544" />
+    <testcase name="writeReadx0" classname="testbench_regfile" file="/MYSTUFF/hw3-singlecycle/testbench_regfile.py" lineno="43" time="0.002503633499145508" sim_time_ns="8.001000000000001" ratio_time="3195.7552903533" />
+    <testcase name="writeReadx1" classname="testbench_regfile" file="/MYSTUFF/hw3-singlecycle/testbench_regfile.py" lineno="58" time="0.0016605854034423828" sim_time_ns="8.001" ratio_time="4818.180373869346" />
+    <testcase name="checkIndividual" classname="testbench_regfile" file="/MYSTUFF/hw3-singlecycle/testbench_regfile.py" lineno="73" time="0.032389163970947266" sim_time_ns="128.00099999999998" ratio_time="3951.9698660581516" />
+    <testcase name="checkBatch" classname="testbench_regfile" file="/MYSTUFF/hw3-singlecycle/testbench_regfile.py" lineno="100" time="0.31418395042419434" sim_time_ns="2114.001" ratio_time="6728.545481542865" />
+  </testsuite>
+</testsuites>

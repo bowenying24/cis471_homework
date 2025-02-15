@@ -1,0 +1,10 @@
+sdiv 133
+Pll parameters:
+Refclk divisor: 6
+Feedback divisor: 1
+clkout0 divisor: 128
+clkout0 frequency: 4.16667 MHz
+clkout1 divisor: 133
+clkout1 frequency: 4.01003 MHz
+clkout1 phase shift: 90 degrees
+VCO frequency: 533.333

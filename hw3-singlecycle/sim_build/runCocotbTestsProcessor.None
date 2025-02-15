@@ -1,0 +1,47 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="12345" />
+    <testcase name="testLui" classname="testbench" file="/MYSTUFF/hw3-singlecycle/testbench.py" lineno="140" time="0.09452342987060547" sim_time_ns="16.001" ratio_time="169.28078066891996" />
+    <testcase name="testAddi" classname="testbench" file="/MYSTUFF/hw3-singlecycle/testbench.py" lineno="149" time="0.028537750244140625" sim_time_ns="20.001" ratio_time="700.8611340729849" />
+    <testcase name="testLuiAddi" classname="testbench" file="/MYSTUFF/hw3-singlecycle/testbench.py" lineno="158" time="0.03108048439025879" sim_time_ns="24.000999999999998" ratio_time="772.2209119598652" />
+    <testcase name="testAddiAll" classname="testbench" file="/MYSTUFF/hw3-singlecycle/testbench.py" lineno="169" time="3.4039201736450195" sim_time_ns="16396.001" ratio_time="4816.799502804636" />
+    <testcase name="testBneNotTaken" classname="testbench" file="/MYSTUFF/hw3-singlecycle/testbench.py" lineno="187" time="0.0271914005279541" sim_time_ns="28.001000000000204" ratio_time="1029.774099764144" />
+    <testcase name="testBeqNotTaken" classname="testbench" file="/MYSTUFF/hw3-singlecycle/testbench.py" lineno="201" time="0.028475522994995117" sim_time_ns="28.001000000000204" ratio_time="983.3357583957873" />
+    <testcase name="testBneTaken" classname="testbench" file="/MYSTUFF/hw3-singlecycle/testbench.py" lineno="215" time="0.02581787109375" sim_time_ns="28.001000000000204" ratio_time="1084.5588274231757" />
+    <testcase name="testEcall" classname="testbench" file="/MYSTUFF/hw3-singlecycle/testbench.py" lineno="229" time="0.026346683502197266" sim_time_ns="24.001000000000204" ratio_time="910.9685474453953" />
+    <testcase name="testOneRiscvTest" classname="testbench" file="/MYSTUFF/hw3-singlecycle/testbench.py" lineno="244" time="0.04648470878601074" sim_time_ns="156.00099999999657" ratio_time="3355.9638013037097" />
+    <testcase name="testStoreLoad" classname="testbench" file="/MYSTUFF/hw3-singlecycle/testbench.py" lineno="268" time="0" sim_time_ns="0" ratio_time="nan">
+      <skipped />
+    </testcase>
+    <testcase name="dhrystone" classname="testbench" file="/MYSTUFF/hw3-singlecycle/testbench.py" lineno="281" time="0" sim_time_ns="0" ratio_time="nan">
+      <skipped />
+    </testcase>
+    <testcase name="riscvTest_001" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.03551793098449707" sim_time_ns="156.0010000000002" ratio_time="4392.175886261274" />
+    <testcase name="riscvTest_002" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.05806612968444824" sim_time_ns="252.0010000000002" ratio_time="4339.896620791884" />
+    <testcase name="riscvTest_003" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.3449819087982178" sim_time_ns="1932.0010000000002" ratio_time="5600.296568392056" />
+    <testcase name="riscvTest_004" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.34557247161865234" sim_time_ns="1944.0010000000002" ratio_time="5625.450982522858" />
+    <testcase name="riscvTest_005" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.39134740829467773" sim_time_ns="1940.0010000000002" ratio_time="4957.234822261078" />
+    <testcase name="riscvTest_006" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.3699326515197754" sim_time_ns="1964.0010000000002" ratio_time="5309.07718453993" />
+    <testcase name="riscvTest_007" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.3659822940826416" sim_time_ns="2040.0010000000002" ratio_time="5574.0428785315835" />
+    <testcase name="riscvTest_008" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.39798498153686523" sim_time_ns="2016.0010000000002" ratio_time="5065.52029228585" />
+    <testcase name="riscvTest_009" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.3331418037414551" sim_time_ns="1828.0010000000002" ratio_time="5487.155858166261" />
+    <testcase name="riscvTest_010" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.33890199661254883" sim_time_ns="1852.0010000000002" ratio_time="5464.7096166780875" />
+    <testcase name="riscvTest_011" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.3407402038574219" sim_time_ns="1820.0009999999966" ratio_time="5341.315698577064" />
+    <testcase name="riscvTest_012" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.15169262886047363" sim_time_ns="784.0010000000038" ratio_time="5168.352647649908" />
+    <testcase name="riscvTest_013" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.1528782844543457" sim_time_ns="812.0009999999966" ratio_time="5311.421454644108" />
+    <testcase name="riscvTest_014" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.18038058280944824" sim_time_ns="956.0010000000038" ratio_time="5299.9108058649035" />
+    <testcase name="riscvTest_015" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.1909933090209961" sim_time_ns="1016.0009999999966" ratio_time="5319.563314588714" />
+    <testcase name="riscvTest_016" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.18465662002563477" sim_time_ns="992.0010000000038" ratio_time="5372.138837276943" />
+    <testcase name="riscvTest_017" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.15520262718200684" sim_time_ns="820.0009999999966" ratio_time="5283.422161651797" />
+    <testcase name="riscvTest_018" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.17948532104492188" sim_time_ns="940.0010000000038" ratio_time="5237.202655501498" />
+    <testcase name="riscvTest_019" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.17509174346923828" sim_time_ns="940.0009999999966" ratio_time="5368.619795399687" />
+    <testcase name="riscvTest_020" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.3291025161743164" sim_time_ns="1828.0010000000038" ratio_time="5554.50326314662" />
+    <testcase name="riscvTest_021" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.17841720581054688" sim_time_ns="960.0009999999966" ratio_time="5380.652586944882" />
+    <testcase name="riscvTest_022" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.21374773979187012" sim_time_ns="1156.0010000000038" ratio_time="5408.249000085905" />
+    <testcase name="riscvTest_023" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.22616243362426758" sim_time_ns="1228.0009999999966" ratio_time="5429.730217884559" />
+    <testcase name="riscvTest_024" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.24838805198669434" sim_time_ns="1328.0010000000038" ratio_time="5346.476971731081" />
+    <testcase name="riscvTest_025" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.21545028686523438" sim_time_ns="1156.0009999999966" ratio_time="5365.511537810497" />
+    <testcase name="riscvTest_026" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.23725390434265137" sim_time_ns="1256.0010000000038" ratio_time="5293.9107724273235" />
+    <testcase name="riscvTest_027" classname="testbench" file="/tools/oss-cad-suite/lib/python3.11/site-packages/cocotb/regression.py" lineno="727" time="0.2301032543182373" sim_time_ns="1156.0009999999966" ratio_time="5023.835944541769" />
+  </testsuite>
+</testsuites>

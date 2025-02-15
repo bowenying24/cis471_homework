@@ -1,0 +1,2340 @@
+{
+    "critical_paths": [
+        {
+            "from": "posedge $glbnet$clk_proc",
+            "path": [
+                {
+                    "delay": 0.5249999761581421,
+                    "from": {
+                        "cell": "datapath.rf.regs[27]_TRELLIS_FF_Q_31",
+                        "loc": [
+                            11,
+                            2
+                        ],
+                        "port": "Q"
+                    },
+                    "to": {
+                        "cell": "datapath.rf.regs[27]_TRELLIS_FF_Q_31",
+                        "loc": [
+                            11,
+                            2
+                        ],
+                        "port": "Q"
+                    },
+                    "type": "clk-to-q"
+                },
+                {
+                    "delay": 0.8920000195503235,
+                    "from": {
+                        "cell": "datapath.rf.regs[27]_TRELLIS_FF_Q_31",
+                        "loc": [
+                            11,
+                            2
+                        ],
+                        "port": "Q"
+                    },
+                    "net": "datapath.rf.regs[27][0]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_SD_LUT4_Z",
+                        "loc": [
+                            10,
+                            2
+                        ],
+                        "port": "D"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.23600000143051147,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_SD_LUT4_Z",
+                        "loc": [
+                            10,
+                            2
+                        ],
+                        "port": "D"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_SD_LUT4_Z",
+                        "loc": [
+                            10,
+                            2
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.6610000133514404,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_SD_LUT4_Z",
+                        "loc": [
+                            10,
+                            2
+                        ],
+                        "port": "F"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_SD[5]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 1.0149999856948853,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0[2]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            11,
+                            4
+                        ],
+                        "port": "C"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.4009999930858612,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            11,
+                            4
+                        ],
+                        "port": "C"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            11,
+                            4
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.7879999876022339,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            11,
+                            4
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD[5]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            7
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            7
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            7
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 1.4359999895095825,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            7
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB0",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "B"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.44699999690055847,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB0",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "B"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB0",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "FCO"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB0",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "FCO"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_FCI_INT",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB1",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "FCI"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.40299999713897705,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB1",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "FCI"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB1",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.9419999718666077,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB1",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "F"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0[4]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "FXB"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.24199999868869781,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "FXB"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "FXB"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.24199999868869781,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "FXB"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.6830000281333923,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            12
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            12
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            12
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.6320000290870667,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            12
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            14
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            14
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.5979999899864197,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0[2]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z_LUT4_Z_1",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "D"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.23600000143051147,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z_LUT4_Z_1",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "D"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z_LUT4_Z_1",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.03999999910593033,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z_LUT4_Z_1",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "F"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z[0]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "A"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.4009999930858612,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "A"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.6740000247955322,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            16,
+                            13
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            16,
+                            13
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            16,
+                            13
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.6200000047683716,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            16,
+                            13
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            13
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            13
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            13
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.9679999947547913,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            13
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            8
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            8
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            8
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.9639999866485596,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            8
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            11
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            11
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            11
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.9779999852180481,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            11
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1[4]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            18
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            18
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            18
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.6499999761581421,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            18
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_2_Z[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            19
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            19
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            19
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 1.7330000400543213,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            19
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z[3]",
+                    "to": {
+                        "cell": "datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z_LUT4_Z",
+                        "loc": [
+                            23,
+                            27
+                        ],
+                        "port": "D"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.23600000143051147,
+                    "from": {
+                        "cell": "datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z_LUT4_Z",
+                        "loc": [
+                            23,
+                            27
+                        ],
+                        "port": "D"
+                    },
+                    "to": {
+                        "cell": "datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z_LUT4_Z",
+                        "loc": [
+                            23,
+                            27
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 1.1230000257492065,
+                    "from": {
+                        "cell": "datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z_LUT4_Z",
+                        "loc": [
+                            23,
+                            27
+                        ],
+                        "port": "F"
+                    },
+                    "net": "datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z[3]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z_LUT4_Z_2",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "D"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.23600000143051147,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z_LUT4_Z_2",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "D"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z_LUT4_Z_2",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.12999999523162842,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z_LUT4_Z_2",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "F"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z[30]",
+                    "to": {
+                        "cell": "datapath.rf.regs[12]_TRELLIS_FF_Q_1",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "DI"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0,
+                    "from": {
+                        "cell": "datapath.rf.regs[12]_TRELLIS_FF_Q_1",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "DI"
+                    },
+                    "to": {
+                        "cell": "datapath.rf.regs[12]_TRELLIS_FF_Q_1",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "DI"
+                    },
+                    "type": "setup"
+                }
+            ],
+            "to": "posedge $glbnet$clk_proc"
+        },
+        {
+            "from": "posedge $glbnet$clk_proc",
+            "path": [
+                {
+                    "delay": 0.5249999761581421,
+                    "from": {
+                        "cell": "datapath.pcCurrent_TRELLIS_FF_Q_23",
+                        "loc": [
+                            3,
+                            27
+                        ],
+                        "port": "Q"
+                    },
+                    "to": {
+                        "cell": "datapath.pcCurrent_TRELLIS_FF_Q_23",
+                        "loc": [
+                            3,
+                            27
+                        ],
+                        "port": "Q"
+                    },
+                    "type": "clk-to-q"
+                },
+                {
+                    "delay": 1.656999945640564,
+                    "from": {
+                        "cell": "datapath.pcCurrent_TRELLIS_FF_Q_23",
+                        "loc": [
+                            3,
+                            27
+                        ],
+                        "port": "Q"
+                    },
+                    "net": "pc_to_imem[8]",
+                    "to": {
+                        "cell": "memory.mem_array.0.0",
+                        "loc": [
+                            8,
+                            22
+                        ],
+                        "port": "ADB11"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.20499999821186066,
+                    "from": {
+                        "cell": "memory.mem_array.0.0",
+                        "loc": [
+                            8,
+                            22
+                        ],
+                        "port": "ADB11"
+                    },
+                    "to": {
+                        "cell": "memory.mem_array.0.0",
+                        "loc": [
+                            8,
+                            22
+                        ],
+                        "port": "ADB11"
+                    },
+                    "type": "setup"
+                }
+            ],
+            "to": "posedge clk_mem"
+        },
+        {
+            "from": "posedge clk_mem",
+            "path": [
+                {
+                    "delay": 5.829999923706055,
+                    "from": {
+                        "cell": "memory.mem_array.0.0",
+                        "loc": [
+                            8,
+                            22
+                        ],
+                        "port": "DOB6"
+                    },
+                    "to": {
+                        "cell": "memory.mem_array.0.0",
+                        "loc": [
+                            8,
+                            22
+                        ],
+                        "port": "DOB6"
+                    },
+                    "type": "clk-to-q"
+                },
+                {
+                    "delay": 1.6399999856948853,
+                    "from": {
+                        "cell": "memory.mem_array.0.0",
+                        "loc": [
+                            8,
+                            22
+                        ],
+                        "port": "DOB6"
+                    },
+                    "net": "insn_from_imem[22]",
+                    "to": {
+                        "cell": "datapath.adder.gp1_loop[3].gp_inst.b_LUT4_C",
+                        "loc": [
+                            8,
+                            8
+                        ],
+                        "port": "D"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.23600000143051147,
+                    "from": {
+                        "cell": "datapath.adder.gp1_loop[3].gp_inst.b_LUT4_C",
+                        "loc": [
+                            8,
+                            8
+                        ],
+                        "port": "D"
+                    },
+                    "to": {
+                        "cell": "datapath.adder.gp1_loop[3].gp_inst.b_LUT4_C",
+                        "loc": [
+                            8,
+                            8
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 2.3949999809265137,
+                    "from": {
+                        "cell": "datapath.adder.gp1_loop[3].gp_inst.b_LUT4_C",
+                        "loc": [
+                            8,
+                            8
+                        ],
+                        "port": "F"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_LUT4_Z_3_D[2]",
+                    "to": {
+                        "cell": "datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            6,
+                            23
+                        ],
+                        "port": "D"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.23600000143051147,
+                    "from": {
+                        "cell": "datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            6,
+                            23
+                        ],
+                        "port": "D"
+                    },
+                    "to": {
+                        "cell": "datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            6,
+                            23
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0,
+                    "from": {
+                        "cell": "datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            6,
+                            23
+                        ],
+                        "port": "F"
+                    },
+                    "net": "datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_ALUT",
+                    "to": {
+                        "cell": "datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            6,
+                            23
+                        ],
+                        "port": "F1"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.16500000655651093,
+                    "from": {
+                        "cell": "datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            6,
+                            23
+                        ],
+                        "port": "F1"
+                    },
+                    "to": {
+                        "cell": "datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            6,
+                            23
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.9110000133514404,
+                    "from": {
+                        "cell": "datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            6,
+                            23
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.halt_LUT4_Z_D_LUT4_Z_A[3]",
+                    "to": {
+                        "cell": "datapath.halt_LUT4_Z_D_LUT4_Z",
+                        "loc": [
+                            6,
+                            24
+                        ],
+                        "port": "D"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.23600000143051147,
+                    "from": {
+                        "cell": "datapath.halt_LUT4_Z_D_LUT4_Z",
+                        "loc": [
+                            6,
+                            24
+                        ],
+                        "port": "D"
+                    },
+                    "to": {
+                        "cell": "datapath.halt_LUT4_Z_D_LUT4_Z",
+                        "loc": [
+                            6,
+                            24
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.593999981880188,
+                    "from": {
+                        "cell": "datapath.halt_LUT4_Z_D_LUT4_Z",
+                        "loc": [
+                            6,
+                            24
+                        ],
+                        "port": "F"
+                    },
+                    "net": "datapath.halt_LUT4_Z_D[3]",
+                    "to": {
+                        "cell": "datapath.halt_LUT4_Z",
+                        "loc": [
+                            6,
+                            24
+                        ],
+                        "port": "D"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.23600000143051147,
+                    "from": {
+                        "cell": "datapath.halt_LUT4_Z",
+                        "loc": [
+                            6,
+                            24
+                        ],
+                        "port": "D"
+                    },
+                    "to": {
+                        "cell": "datapath.halt_LUT4_Z",
+                        "loc": [
+                            6,
+                            24
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 1.659999966621399,
+                    "from": {
+                        "cell": "datapath.halt_LUT4_Z",
+                        "loc": [
+                            6,
+                            24
+                        ],
+                        "port": "F"
+                    },
+                    "net": "led[0]$TRELLIS_IO_OUT",
+                    "to": {
+                        "cell": "led[0]$tr_io",
+                        "loc": [
+                            0,
+                            35
+                        ],
+                        "port": "I"
+                    },
+                    "type": "routing"
+                }
+            ],
+            "to": "<async>"
+        },
+        {
+            "from": "posedge clk_mem",
+            "path": [
+                {
+                    "delay": 5.829999923706055,
+                    "from": {
+                        "cell": "memory.mem_array.0.0",
+                        "loc": [
+                            8,
+                            22
+                        ],
+                        "port": "DOB6"
+                    },
+                    "to": {
+                        "cell": "memory.mem_array.0.0",
+                        "loc": [
+                            8,
+                            22
+                        ],
+                        "port": "DOB6"
+                    },
+                    "type": "clk-to-q"
+                },
+                {
+                    "delay": 2.4609999656677246,
+                    "from": {
+                        "cell": "memory.mem_array.0.0",
+                        "loc": [
+                            8,
+                            22
+                        ],
+                        "port": "DOB6"
+                    },
+                    "net": "insn_from_imem[22]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "A"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.23600000143051147,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "A"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "F"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "F1"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.16500000655651093,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "F1"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "FXB"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.24199999868869781,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "FXB"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 1.0149999856948853,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            10,
+                            3
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0[2]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            11,
+                            4
+                        ],
+                        "port": "C"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.4009999930858612,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            11,
+                            4
+                        ],
+                        "port": "C"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            11,
+                            4
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.7879999876022339,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            11,
+                            4
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD[5]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            7
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            7
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            7
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 1.4359999895095825,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            7
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB0",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "B"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.44699999690055847,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB0",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "B"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB0",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "FCO"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB0",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "FCO"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_FCI_INT",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB1",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "FCI"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.40299999713897705,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB1",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "FCI"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB1",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.9419999718666077,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB1",
+                        "loc": [
+                            15,
+                            12
+                        ],
+                        "port": "F"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0[4]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "FXB"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.24199999868869781,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "FXB"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "FXB"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.24199999868869781,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "FXB"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.6830000281333923,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            13,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            12
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            12
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            12
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.6320000290870667,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            12
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            14
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            14
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.5979999899864197,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            14,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0[2]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z_LUT4_Z_1",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "D"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.23600000143051147,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z_LUT4_Z_1",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "D"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z_LUT4_Z_1",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.03999999910593033,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z_LUT4_Z_1",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "F"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z[0]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "A"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.4009999930858612,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "A"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.6740000247955322,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z_PFUMX_Z_BLUT_LUT4_Z",
+                        "loc": [
+                            15,
+                            14
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            16,
+                            13
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            16,
+                            13
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            16,
+                            13
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.6200000047683716,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            16,
+                            13
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            13
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            13
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            13
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.9679999947547913,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            13
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            8
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            8
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            8
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.9639999866485596,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            18,
+                            8
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            11
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            11
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            11
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.9779999852180481,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            11
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1[4]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            18
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            18
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            18
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.6499999761581421,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            18
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_2_Z[6]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            19
+                        ],
+                        "port": "M"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.25600001215934753,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            19
+                        ],
+                        "port": "M"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            19
+                        ],
+                        "port": "OFX"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 1.7330000400543213,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z",
+                        "loc": [
+                            19,
+                            19
+                        ],
+                        "port": "OFX"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z[3]",
+                    "to": {
+                        "cell": "datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z_LUT4_Z",
+                        "loc": [
+                            23,
+                            27
+                        ],
+                        "port": "D"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.23600000143051147,
+                    "from": {
+                        "cell": "datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z_LUT4_Z",
+                        "loc": [
+                            23,
+                            27
+                        ],
+                        "port": "D"
+                    },
+                    "to": {
+                        "cell": "datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z_LUT4_Z",
+                        "loc": [
+                            23,
+                            27
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 1.1230000257492065,
+                    "from": {
+                        "cell": "datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z_LUT4_Z",
+                        "loc": [
+                            23,
+                            27
+                        ],
+                        "port": "F"
+                    },
+                    "net": "datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z[3]",
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z_LUT4_Z_2",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "D"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0.23600000143051147,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z_LUT4_Z_2",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "D"
+                    },
+                    "to": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z_LUT4_Z_2",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "F"
+                    },
+                    "type": "logic"
+                },
+                {
+                    "delay": 0.12999999523162842,
+                    "from": {
+                        "cell": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z_LUT4_Z_2",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "F"
+                    },
+                    "net": "datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z[30]",
+                    "to": {
+                        "cell": "datapath.rf.regs[12]_TRELLIS_FF_Q_1",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "DI"
+                    },
+                    "type": "routing"
+                },
+                {
+                    "delay": 0,
+                    "from": {
+                        "cell": "datapath.rf.regs[12]_TRELLIS_FF_Q_1",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "DI"
+                    },
+                    "to": {
+                        "cell": "datapath.rf.regs[12]_TRELLIS_FF_Q_1",
+                        "loc": [
+                            22,
+                            29
+                        ],
+                        "port": "DI"
+                    },
+                    "type": "setup"
+                }
+            ],
+            "to": "posedge $glbnet$clk_proc"
+        }
+    ],
+    "fmax": {
+        "$glbnet$clk_proc": {
+            "achieved": 45.56223678588867,
+            "constraint": 4.166666507720947
+        }
+    },
+    "utilization": {
+        "ALU54B": {
+            "available": 78,
+            "used": 0
+        },
+        "CLKDIVF": {
+            "available": 4,
+            "used": 0
+        },
+        "DCCA": {
+            "available": 56,
+            "used": 1
+        },
+        "DCSC": {
+            "available": 2,
+            "used": 0
+        },
+        "DCUA": {
+            "available": 2,
+            "used": 0
+        },
+        "DDRDLL": {
+            "available": 4,
+            "used": 0
+        },
+        "DLLDELD": {
+            "available": 8,
+            "used": 0
+        },
+        "DP16KD": {
+            "available": 208,
+            "used": 1
+        },
+        "DQSBUFM": {
+            "available": 14,
+            "used": 0
+        },
+        "DTR": {
+            "available": 1,
+            "used": 0
+        },
+        "ECLKBRIDGECS": {
+            "available": 2,
+            "used": 0
+        },
+        "ECLKSYNCB": {
+            "available": 10,
+            "used": 0
+        },
+        "EHXPLLL": {
+            "available": 4,
+            "used": 1
+        },
+        "EXTREFB": {
+            "available": 2,
+            "used": 0
+        },
+        "GSR": {
+            "available": 1,
+            "used": 0
+        },
+        "IOLOGIC": {
+            "available": 224,
+            "used": 0
+        },
+        "JTAGG": {
+            "available": 1,
+            "used": 0
+        },
+        "MULT18X18D": {
+            "available": 156,
+            "used": 0
+        },
+        "OSCG": {
+            "available": 1,
+            "used": 0
+        },
+        "PCSCLKDIV": {
+            "available": 2,
+            "used": 0
+        },
+        "SEDGA": {
+            "available": 1,
+            "used": 0
+        },
+        "SIOLOGIC": {
+            "available": 141,
+            "used": 0
+        },
+        "TRELLIS_COMB": {
+            "available": 83640,
+            "used": 4891
+        },
+        "TRELLIS_ECLKBUF": {
+            "available": 8,
+            "used": 0
+        },
+        "TRELLIS_FF": {
+            "available": 83640,
+            "used": 1055
+        },
+        "TRELLIS_IO": {
+            "available": 365,
+            "used": 16
+        },
+        "TRELLIS_RAMW": {
+            "available": 10455,
+            "used": 0
+        },
+        "USRMCLK": {
+            "available": 1,
+            "used": 0
+        }
+    }
+}

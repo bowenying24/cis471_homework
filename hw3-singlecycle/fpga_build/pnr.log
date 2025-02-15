@@ -1,0 +1,525 @@
+Info: constraining clock net 'external_clk_25MHz' to 25.00 MHz
+
+Info: Logic utilisation before packing:
+Info:     Total LUT4s:      4859/83640     5%
+Info:         logic LUTs:   4639/83640     5%
+Info:         carry LUTs:    220/83640     0%
+Info:           RAM LUTs:      0/10455     0%
+Info:          RAMW LUTs:      0/20910     0%
+
+Info:      Total DFFs:      1055/83640     1%
+
+Info: Packing IOs..
+Info: pin 'led[7]$tr_io' constrained to Bel 'X0/Y41/PIOD'.
+Info: pin 'led[6]$tr_io' constrained to Bel 'X0/Y38/PIOD'.
+Info: pin 'led[5]$tr_io' constrained to Bel 'X0/Y44/PIOD'.
+Info: pin 'led[4]$tr_io' constrained to Bel 'X0/Y38/PIOB'.
+Info: pin 'led[3]$tr_io' constrained to Bel 'X0/Y38/PIOC'.
+Info: pin 'led[2]$tr_io' constrained to Bel 'X0/Y38/PIOA'.
+Info: pin 'led[1]$tr_io' constrained to Bel 'X0/Y35/PIOD'.
+Info: pin 'led[0]$tr_io' constrained to Bel 'X0/Y35/PIOC'.
+Info: pin 'external_clk_25MHz$tr_io' constrained to Bel 'X0/Y47/PIOA'.
+Info: pin 'btn[6]$tr_io' constrained to Bel 'X126/Y17/PIOD'.
+Info: pin 'btn[5]$tr_io' constrained to Bel 'X6/Y95/PIOA'.
+Info: pin 'btn[4]$tr_io' constrained to Bel 'X6/Y95/PIOB'.
+Info: pin 'btn[3]$tr_io' constrained to Bel 'X126/Y89/PIOB'.
+Info: pin 'btn[2]$tr_io' constrained to Bel 'X4/Y95/PIOB'.
+Info: pin 'btn[1]$tr_io' constrained to Bel 'X4/Y95/PIOA'.
+Info: pin 'btn[0]$tr_io' constrained to Bel 'X6/Y0/PIOB'.
+Info: Packing constants..
+Info: Packing carries...
+Info: Packing LUTs...
+Info: Packing LUT5-7s...
+Info: Packing FFs...
+Info:     931 FFs paired with LUTs.
+Info: Generating derived timing constraints...
+Info:     Input frequency of PLL 'clock_gen.pll_i' is constrained to 25.0 MHz
+Info:     Derived frequency constraint of 4.2 MHz for net clk_proc
+Info:     Derived frequency constraint of 4.0 MHz for net clk_mem
+Info: Promoting globals...
+Info:     promoting clock net clk_proc to global network
+Info: Checksum: 0xed6893ad
+
+Info: Device utilisation:
+Info: 	          TRELLIS_IO:      16/    365     4%
+Info: 	                DCCA:       1/     56     1%
+Info: 	              DP16KD:       1/    208     0%
+Info: 	          MULT18X18D:       0/    156     0%
+Info: 	              ALU54B:       0/     78     0%
+Info: 	             EHXPLLL:       1/      4    25%
+Info: 	             EXTREFB:       0/      2     0%
+Info: 	                DCUA:       0/      2     0%
+Info: 	           PCSCLKDIV:       0/      2     0%
+Info: 	             IOLOGIC:       0/    224     0%
+Info: 	            SIOLOGIC:       0/    141     0%
+Info: 	                 GSR:       0/      1     0%
+Info: 	               JTAGG:       0/      1     0%
+Info: 	                OSCG:       0/      1     0%
+Info: 	               SEDGA:       0/      1     0%
+Info: 	                 DTR:       0/      1     0%
+Info: 	             USRMCLK:       0/      1     0%
+Info: 	             CLKDIVF:       0/      4     0%
+Info: 	           ECLKSYNCB:       0/     10     0%
+Info: 	             DLLDELD:       0/      8     0%
+Info: 	              DDRDLL:       0/      4     0%
+Info: 	             DQSBUFM:       0/     14     0%
+Info: 	     TRELLIS_ECLKBUF:       0/      8     0%
+Info: 	        ECLKBRIDGECS:       0/      2     0%
+Info: 	                DCSC:       0/      2     0%
+Info: 	          TRELLIS_FF:    1055/  83640     1%
+Info: 	        TRELLIS_COMB:    4891/  83640     5%
+Info: 	        TRELLIS_RAMW:       0/  10455     0%
+
+Info: Placed 17 cells based on constraints.
+Info: Creating initial analytic placement for 3847 cells, random placement wirelen = 386479.
+Info:     at initial placer iter 0, wirelen = 795
+Info:     at initial placer iter 1, wirelen = 633
+Info:     at initial placer iter 2, wirelen = 612
+Info:     at initial placer iter 3, wirelen = 648
+Info: Running main analytical placer, max placement attempts per cell = 4447653.
+Info:     at iteration #1, type ALL: wirelen solved = 598, spread = 28000, legal = 28422; time = 0.23s
+Info:     at iteration #2, type ALL: wirelen solved = 1710, spread = 23152, legal = 23567; time = 0.22s
+Info:     at iteration #3, type ALL: wirelen solved = 3449, spread = 21545, legal = 21850; time = 0.20s
+Info:     at iteration #4, type ALL: wirelen solved = 5686, spread = 18404, legal = 18866; time = 0.19s
+Info:     at iteration #5, type ALL: wirelen solved = 6330, spread = 18326, legal = 18726; time = 0.19s
+Info:     at iteration #6, type ALL: wirelen solved = 7384, spread = 17023, legal = 17622; time = 0.20s
+Info:     at iteration #7, type ALL: wirelen solved = 8181, spread = 16475, legal = 17172; time = 0.20s
+Info:     at iteration #8, type ALL: wirelen solved = 8946, spread = 16119, legal = 16790; time = 0.18s
+Info:     at iteration #9, type ALL: wirelen solved = 9473, spread = 16077, legal = 16705; time = 0.20s
+Info:     at iteration #10, type ALL: wirelen solved = 9809, spread = 15909, legal = 16722; time = 0.21s
+Info:     at iteration #11, type ALL: wirelen solved = 10045, spread = 15552, legal = 16298; time = 0.18s
+Info:     at iteration #12, type ALL: wirelen solved = 10170, spread = 15494, legal = 16108; time = 0.17s
+Info:     at iteration #13, type ALL: wirelen solved = 10639, spread = 14986, legal = 15550; time = 0.17s
+Info:     at iteration #14, type ALL: wirelen solved = 10475, spread = 14897, legal = 15497; time = 0.17s
+Info:     at iteration #15, type ALL: wirelen solved = 10611, spread = 14694, legal = 15332; time = 0.17s
+Info:     at iteration #16, type ALL: wirelen solved = 10774, spread = 14819, legal = 15559; time = 0.17s
+Info:     at iteration #17, type ALL: wirelen solved = 10755, spread = 14666, legal = 15396; time = 0.16s
+Info:     at iteration #18, type ALL: wirelen solved = 11067, spread = 14507, legal = 15179; time = 0.35s
+Info:     at iteration #19, type ALL: wirelen solved = 11007, spread = 14522, legal = 15210; time = 0.19s
+Info:     at iteration #20, type ALL: wirelen solved = 11127, spread = 14334, legal = 15106; time = 0.16s
+Info:     at iteration #21, type ALL: wirelen solved = 11206, spread = 14823, legal = 15299; time = 0.16s
+Info:     at iteration #22, type ALL: wirelen solved = 11433, spread = 14426, legal = 15032; time = 0.42s
+Info:     at iteration #23, type ALL: wirelen solved = 11405, spread = 14394, legal = 15207; time = 0.31s
+Info:     at iteration #24, type ALL: wirelen solved = 11374, spread = 14223, legal = 14974; time = 0.19s
+Info:     at iteration #25, type ALL: wirelen solved = 11331, spread = 14323, legal = 14853; time = 0.18s
+Info:     at iteration #26, type ALL: wirelen solved = 11479, spread = 14248, legal = 14863; time = 0.17s
+Info:     at iteration #27, type ALL: wirelen solved = 11585, spread = 14215, legal = 14836; time = 0.22s
+Info:     at iteration #28, type ALL: wirelen solved = 11707, spread = 14193, legal = 14741; time = 0.18s
+Info:     at iteration #29, type ALL: wirelen solved = 11711, spread = 14152, legal = 14629; time = 0.16s
+Info: HeAP Placer Time: 8.31s
+Info:   of which solving equations: 4.62s
+Info:   of which spreading cells: 1.33s
+Info:   of which strict legalisation: 0.23s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 4075, wirelen = 14629
+Info:   at iteration #5: temp = 0.000000, timing cost = 3790, wirelen = 13710
+Info:   at iteration #10: temp = 0.000000, timing cost = 3875, wirelen = 13431
+Info:   at iteration #15: temp = 0.000000, timing cost = 4783, wirelen = 13354
+Info:   at iteration #19: temp = 0.000000, timing cost = 4703, wirelen = 13333 
+Info: SA placement time 11.46s
+
+Info: Max frequency for clock '$glbnet$clk_proc': 38.37 MHz (PASS at 4.17 MHz)
+
+Info: Clock 'clk_mem' has no interior paths
+
+Info: Max delay posedge $glbnet$clk_proc -> posedge clk_mem         : 2.89 ns
+Info: Max delay posedge clk_mem          -> <async>                 : 15.10 ns
+Info: Max delay posedge clk_mem          -> posedge $glbnet$clk_proc: 33.68 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 4 endpoint(s)
+Info:          + represents [1,4) endpoint(s)
+Info: [213936, 215202) |**************+
+Info: [215202, 216468) |*******************************+
+Info: [216468, 217734) |*********************+
+Info: [217734, 219000) |********************+
+Info: [219000, 220266) |**************************************************+
+Info: [220266, 221532) |************************************************************ 
+Info: [221532, 222798) |************************+
+Info: [222798, 224064) | 
+Info: [224064, 225330) | 
+Info: [225330, 226596) | 
+Info: [226596, 227862) | 
+Info: [227862, 229128) | 
+Info: [229128, 230394) | 
+Info: [230394, 231660) | 
+Info: [231660, 232926) | 
+Info: [232926, 234192) | 
+Info: [234192, 235458) | 
+Info: [235458, 236724) | 
+Info: [236724, 237990) | 
+Info: [237990, 239256) |+
+Info: Checksum: 0xf17c9686
+Info: Routing globals...
+Info:     routing clock net $glbnet$clk_proc using global 0
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 19630 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:       1000 |      424        575 |  424   575 |     19298|       0.66       0.66|
+Info:       2000 |      795       1204 |  371   629 |     19034|       0.40       1.06|
+Info:       3000 |     1141       1858 |  346   654 |     18788|       0.36       1.43|
+Info:       4000 |     1520       2479 |  379   621 |     18630|       0.40       1.83|
+Info:       5000 |     1799       3200 |  279   721 |     18549|       0.38       2.21|
+Info:       6000 |     2105       3894 |  306   694 |     18384|       0.41       2.62|
+Info:       7000 |     2460       4539 |  355   645 |     17864|       0.40       3.02|
+Info:       8000 |     2773       5226 |  313   687 |     17381|       0.73       3.75|
+Info:       9000 |     3182       5817 |  409   591 |     16973|       0.50       4.25|
+Info:      10000 |     3480       6519 |  298   702 |     16849|       0.46       4.71|
+Info:      11000 |     3804       7195 |  324   676 |     16596|       0.55       5.26|
+Info:      12000 |     4063       7936 |  259   741 |     16030|       0.40       5.66|
+Info:      13000 |     4328       8671 |  265   735 |     15502|       0.40       6.06|
+Info:      14000 |     4596       9403 |  268   732 |     15003|       0.43       6.50|
+Info:      15000 |     4884      10115 |  288   712 |     14856|       0.44       6.93|
+Info:      16000 |     5157      10842 |  273   727 |     14311|       0.38       7.31|
+Info:      17000 |     5472      11527 |  315   685 |     13871|       0.41       7.72|
+Info:      18000 |     5795      12204 |  323   677 |     13408|       0.39       8.12|
+Info:      19000 |     6088      12911 |  293   707 |     13444|       0.46       8.58|
+Info:      20000 |     6328      13671 |  240   760 |     13632|       0.42       9.00|
+Info:      21000 |     6517      14482 |  189   811 |     13231|       0.36       9.36|
+Info:      22000 |     6720      15279 |  203   797 |     13018|       0.40       9.76|
+Info:      23000 |     7022      15977 |  302   698 |     12510|       0.43      10.19|
+Info:      24000 |     7374      16625 |  352   648 |     12062|       0.43      10.62|
+Info:      25000 |     7725      17274 |  351   649 |     11763|       0.43      11.05|
+Info:      26000 |     8046      17953 |  321   679 |     11445|       0.43      11.48|
+Info:      27000 |     8432      18567 |  386   614 |     10950|       0.46      11.94|
+Info:      28000 |     8832      19167 |  400   600 |     10626|       0.47      12.41|
+Info:      29000 |     9228      19771 |  396   604 |     10107|       0.43      12.84|
+Info:      30000 |     9692      20307 |  464   536 |      9763|       0.54      13.38|
+Info:      31000 |    10195      20804 |  503   497 |      9433|       0.50      13.88|
+Info:      32000 |    10621      21378 |  426   574 |      9124|       0.47      14.35|
+Info:      33000 |    11090      21909 |  469   531 |      8780|       0.46      14.82|
+Info:      34000 |    11543      22456 |  453   547 |      8489|       0.49      15.31|
+Info:      35000 |    12119      22880 |  576   424 |      8287|       0.49      15.79|
+Info:      36000 |    12823      23176 |  704   296 |      8126|       0.47      16.27|
+Info:      37000 |    13487      23512 |  664   336 |      7882|       0.48      16.74|
+Info:      38000 |    14038      23961 |  551   449 |      7675|       0.47      17.21|
+Info:      39000 |    14615      24384 |  577   423 |      7444|       0.43      17.64|
+Info:      40000 |    15143      24856 |  528   472 |      7102|       0.43      18.08|
+Info:      41000 |    15658      25341 |  515   485 |      6874|       0.49      18.56|
+Info:      42000 |    16173      25826 |  515   485 |      6712|       0.45      19.01|
+Info:      43000 |    16600      26399 |  427   573 |      6445|       0.49      19.50|
+Info:      44000 |    17028      26939 |  428   540 |      6067|       0.53      20.03|
+Info:      45000 |    17538      27375 |  510   436 |      5704|       0.45      20.48|
+Info:      46000 |    17991      27912 |  453   537 |      5867|       0.89      21.37|
+Info:      47000 |    18338      28559 |  347   647 |      5417|       0.71      22.08|
+Info:      48000 |    18893      28974 |  555   415 |      5023|       0.45      22.53|
+Info:      49000 |    19486      29329 |  593   355 |      4686|       0.64      23.17|
+Info:      50000 |    20069      29721 |  583   392 |      4341|       0.48      23.65|
+Info:      51000 |    20512      30254 |  443   533 |      4014|       0.44      24.09|
+Info:      52000 |    20925      30796 |  413   542 |      3474|       0.34      24.43|
+Info:      53000 |    21411      31288 |  486   492 |      3138|       0.46      24.89|
+Info:      54000 |    21896      31766 |  485   478 |      2669|       0.45      25.34|
+Info:      55000 |    22364      32263 |  468   497 |      2211|       0.48      25.82|
+Info:      56000 |    22878      32701 |  514   438 |      1810|       0.49      26.31|
+Info:      57000 |    23415      33123 |  537   422 |      1423|       0.78      27.09|
+Info:      58000 |    23857      33640 |  442   517 |       977|       0.60      27.69|
+Info:      59000 |    24071      34153 |  214   513 |       209|       0.58      28.27|
+Info:      59228 |    24089      34301 |   18   148 |         0|       0.22      28.49|
+Info: Routing complete.
+Info: Router1 time 28.49s
+Info: Checksum: 0x6e5c1f11
+
+Info: Critical path report for clock '$glbnet$clk_proc' (posedge -> posedge):
+Info:       type curr  total name
+Info:   clk-to-q  0.52  0.52 Source datapath.rf.regs[27]_TRELLIS_FF_Q_31.Q
+Info:    routing  0.89  1.42 Net datapath.rf.regs[27][0] (11,2) -> (10,2)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_SD_LUT4_Z.D
+Info:      logic  0.24  1.65 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_SD_LUT4_Z.F
+Info:    routing  0.66  2.31 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_SD[5] (10,2) -> (10,3)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  2.57 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  1.01  3.59 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0[2] (10,3) -> (11,4)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_BLUT_LUT4_Z.C
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.40  3.99 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:    routing  0.79  4.77 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD[5] (11,4) -> (13,7)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  5.03 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  1.44  6.47 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0 (13,7) -> (15,12)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB0.B
+Info:      logic  0.45  6.91 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB0.FCO
+Info:    routing  0.00  6.91 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_FCI_INT (15,12) -> (15,12)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB1.FCI
+Info:      logic  0.40  7.32 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB1.F
+Info:    routing  0.94  8.26 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0[4] (15,12) -> (13,14)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  8.51 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:    routing  0.00  8.51 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1 (13,14) -> (13,14)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.FXB
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:157.62-157.64
+Info:      logic  0.24  8.76 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.00  8.76 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1 (13,14) -> (13,14)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.FXB
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:157.70-157.72
+Info:      logic  0.24  9.00 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.68  9.68 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0[6] (13,14) -> (14,12)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  9.94 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.63  10.57 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1[6] (14,12) -> (14,14)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  10.82 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.60  11.42 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0[2] (14,14) -> (15,14)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z_LUT4_Z_1.D
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.24  11.66 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z_LUT4_Z_1.F
+Info:    routing  0.04  11.70 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z[0] (15,14) -> (15,14)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z_PFUMX_Z_BLUT_LUT4_Z.A
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.40  12.10 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:    routing  0.67  12.77 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z[6] (15,14) -> (16,13)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  13.03 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.62  13.65 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z[6] (16,13) -> (18,13)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  13.91 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.97  14.87 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z[6] (18,13) -> (18,8)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  15.13 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.96  16.09 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z[6] (18,8) -> (19,11)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  16.35 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.98  17.33 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1[4] (19,11) -> (19,18)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  17.58 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.65  18.23 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_2_Z[6] (19,18) -> (19,19)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  18.49 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  1.73  20.22 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z[3] (19,19) -> (23,27)
+Info:                          Sink datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z_LUT4_Z.D
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.24  20.46 Source datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z_LUT4_Z.F
+Info:    routing  1.12  21.58 Net datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z[3] (23,27) -> (22,29)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z_LUT4_Z_2.D
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.24  21.82 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z_LUT4_Z_2.F
+Info:    routing  0.13  21.95 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z[30] (22,29) -> (22,29)
+Info:                          Sink datapath.rf.regs[12]_TRELLIS_FF_Q_1.DI
+Info:      setup  0.00  21.95 Source datapath.rf.regs[12]_TRELLIS_FF_Q_1.DI
+Info: 6.42 ns logic, 15.53 ns routing
+
+Info: Critical path report for cross-domain path 'posedge $glbnet$clk_proc' -> 'posedge clk_mem':
+Info:       type curr  total name
+Info:   clk-to-q  0.52  0.52 Source datapath.pcCurrent_TRELLIS_FF_Q_23.Q
+Info:    routing  1.66  2.18 Net pc_to_imem[8] (3,27) -> (8,22)
+Info:                          Sink memory.mem_array.0.0.ADB11
+Info:                          Defined in:
+Info:                               system/System.v:629.14-629.24
+Info:      setup  0.20  2.39 Source memory.mem_array.0.0.ADB11
+Info: 0.73 ns logic, 1.66 ns routing
+
+Info: Critical path report for cross-domain path 'posedge clk_mem' -> '<async>':
+Info:       type curr  total name
+Info:   clk-to-q  5.83  5.83 Source memory.mem_array.0.0.DOB6
+Info:    routing  1.64  7.47 Net insn_from_imem[22] (8,22) -> (8,8)
+Info:                          Sink datapath.adder.gp1_loop[3].gp_inst.b_LUT4_C.D
+Info:                          Defined in:
+Info:                               system/System.v:578.20-578.34
+Info:      logic  0.24  7.71 Source datapath.adder.gp1_loop[3].gp_inst.b_LUT4_C.F
+Info:    routing  2.39  10.10 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_LUT4_Z_3_D[2] (8,8) -> (6,23)
+Info:                          Sink datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_ALUT_LUT4_Z.D
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.24  10.34 Source datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_ALUT_LUT4_Z.F
+Info:    routing  0.00  10.34 Net datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_ALUT (6,23) -> (6,23)
+Info:                          Sink datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_BLUT_LUT4_Z.F1
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:133.22-133.24
+Info:      logic  0.17  10.50 Source datapath.halt_LUT4_Z_D_LUT4_Z_A_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:    routing  0.91  11.41 Net datapath.halt_LUT4_Z_D_LUT4_Z_A[3] (6,23) -> (6,24)
+Info:                          Sink datapath.halt_LUT4_Z_D_LUT4_Z.D
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.24  11.65 Source datapath.halt_LUT4_Z_D_LUT4_Z.F
+Info:    routing  0.59  12.24 Net datapath.halt_LUT4_Z_D[3] (6,24) -> (6,24)
+Info:                          Sink datapath.halt_LUT4_Z.D
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.24  12.48 Source datapath.halt_LUT4_Z.F
+Info:    routing  1.66  14.14 Net led[0]$TRELLIS_IO_OUT (6,24) -> (0,35)
+Info:                          Sink led[0]$tr_io.I
+Info:                          Defined in:
+Info:                               system/System.v:619.20-619.23
+Info: 6.94 ns logic, 7.20 ns routing
+
+Info: Critical path report for cross-domain path 'posedge clk_mem' -> 'posedge $glbnet$clk_proc':
+Info:       type curr  total name
+Info:   clk-to-q  5.83  5.83 Source memory.mem_array.0.0.DOB6
+Info:    routing  2.46  8.29 Net insn_from_imem[22] (8,22) -> (10,3)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z.A
+Info:                          Defined in:
+Info:                               system/System.v:578.20-578.34
+Info:      logic  0.24  8.53 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z.F
+Info:    routing  0.00  8.53 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT (10,3) -> (10,3)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_BLUT_LUT4_Z.F1
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:141.30-141.32
+Info:      logic  0.17  8.69 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:    routing  0.00  8.69 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1 (10,3) -> (10,3)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z.FXB
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:141.38-141.40
+Info:      logic  0.24  8.93 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0_L6MUX21_Z_1_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  1.01  9.95 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_C0[2] (10,3) -> (11,4)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_BLUT_LUT4_Z.C
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.40  10.35 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:    routing  0.79  11.14 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_LUT4_Z_B_LUT4_B_Z_LUT4_Z_C_PFUMX_Z_C0_LUT4_C_Z_L6MUX21_Z_SD[5] (11,4) -> (13,7)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  11.39 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  1.44  12.83 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1_B0 (13,7) -> (15,12)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB0.B
+Info:      logic  0.45  13.28 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB0.FCO
+Info:    routing  0.00  13.28 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_FCI_INT (15,12) -> (15,12)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB1.FCI
+Info:      logic  0.40  13.68 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0_CCU2C_S1$CCU2_COMB1.F
+Info:    routing  0.94  14.62 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_CCU2C_S0_CIN_CCU2C_COUT_S0[4] (15,12) -> (13,14)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  14.88 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:    routing  0.00  14.88 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1 (13,14) -> (13,14)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.FXB
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:157.62-157.64
+Info:      logic  0.24  15.12 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.00  15.12 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1 (13,14) -> (13,14)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.FXB
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:157.70-157.72
+Info:      logic  0.24  15.36 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.68  16.05 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_CCU2C_S1_S0[6] (13,14) -> (14,12)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  16.30 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.63  16.93 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S1[6] (14,12) -> (14,14)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  17.19 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.60  17.79 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_CIN_CCU2C_COUT_S0[2] (14,14) -> (15,14)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z_LUT4_Z_1.D
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.24  18.02 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z_LUT4_Z_1.F
+Info:    routing  0.04  18.06 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_S0_LUT4_D_Z[0] (15,14) -> (15,14)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z_PFUMX_Z_BLUT_LUT4_Z.A
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.40  18.46 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:    routing  0.67  19.14 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_LUT4_D_Z[6] (15,14) -> (16,13)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  19.39 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.62  20.01 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z[6] (16,13) -> (18,13)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  20.27 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.97  21.24 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_LUT4_D_Z[6] (18,13) -> (18,8)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  21.49 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.96  22.46 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z[6] (18,8) -> (19,11)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  22.71 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.98  23.69 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S1[4] (19,11) -> (19,18)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  23.95 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  0.65  24.60 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_C_Z_LUT4_Z_2_C_CCU2C_S1_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_COUT_CCU2C_CIN_S0_LUT4_D_2_Z[6] (19,18) -> (19,19)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.26  24.85 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:    routing  1.73  26.59 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_Z_1_B_CCU2C_S1_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_CIN_CCU2C_COUT_S0_LUT4_A_Z_LUT4_Z_B_LUT4_D_Z_PFUMX_Z_C0_LUT4_Z_1_C_LUT4_D_Z_LUT4_Z_C_LUT4_Z_C_LUT4_D_Z_PFUMX_C0_Z_LUT4_B_Z_PFUMX_C0_Z[3] (19,19) -> (23,27)
+Info:                          Sink datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z_LUT4_Z.D
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.24  26.82 Source datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z_LUT4_Z.F
+Info:    routing  1.12  27.95 Net datapath.adder.gp1_loop[9].gp_inst.b_LUT4_C_3_Z_LUT4_Z_B_LUT4_Z_D_PFUMX_C0_Z_PFUMX_C0_Z[3] (23,27) -> (22,29)
+Info:                          Sink datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z_LUT4_Z_2.D
+Info:                          Defined in:
+Info:                               /tools/oss-cad-suite/lib/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:      logic  0.24  28.18 Source datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z_LUT4_Z_2.F
+Info:    routing  0.13  28.31 Net datapath.branch_decision_PFUMX_Z_C0_LUT4_C_Z_PFUMX_C0_Z_LUT4_D_28_Z[30] (22,29) -> (22,29)
+Info:                          Sink datapath.rf.regs[12]_TRELLIS_FF_Q_1.DI
+Info:      setup  0.00  28.31 Source datapath.rf.regs[12]_TRELLIS_FF_Q_1.DI
+Info: 11.88 ns logic, 16.43 ns routing
+
+Info: Max frequency for clock '$glbnet$clk_proc': 45.56 MHz (PASS at 4.17 MHz)
+
+Info: Clock 'clk_mem' has no interior paths
+
+Info: Max delay posedge $glbnet$clk_proc -> posedge clk_mem         : 2.39 ns
+Info: Max delay posedge clk_mem          -> <async>                 : 14.14 ns
+Info: Max delay posedge clk_mem          -> posedge $glbnet$clk_proc: 28.31 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 5 endpoint(s)
+Info:          + represents [1,5) endpoint(s)
+Info: [218052, 219062) |*******************+
+Info: [219062, 220072) |*************************+
+Info: [220072, 221082) |******************+
+Info: [221082, 222092) |**********************************+
+Info: [222092, 223102) |************************************************************ 
+Info: [223102, 224112) |******************+
+Info: [224112, 225122) | 
+Info: [225122, 226132) | 
+Info: [226132, 227142) | 
+Info: [227142, 228152) | 
+Info: [228152, 229162) | 
+Info: [229162, 230172) | 
+Info: [230172, 231182) | 
+Info: [231182, 232192) | 
+Info: [232192, 233202) | 
+Info: [233202, 234212) | 
+Info: [234212, 235222) | 
+Info: [235222, 236232) | 
+Info: [236232, 237242) | 
+Info: [237242, 238252) |+
+
+Info: Program finished normally.
+57.72user 2.21system 1:05.75elapsed 91%CPU (0avgtext+0avgdata 457492maxresident)k
+5024inputs+3930outputs (30major+33427minor)pagefaults 0swaps
